@@ -1,0 +1,32 @@
+Basic Calculator -
+
+
+Basic Calculator 2.0 - 
+	FontColor and Orientation Changed
+	Equation added
+
+Basic Calculator 3.0 - 
+	Number Value input string constraint
+	Added History Button (non-functional)
+	Keyboard hide on Button clicks
+	Null Values Input Error handled
+
+Basic Calculator 3.1 - 
+	Fixed result and equation string length
+	Operation Buttons positions shifted upwards
+
+Basic Calculator 3.2.0 - 
+	Close AlertDialog Box Added
+	History Button Linked to History_Activity
+	Back Button on History_Activity
+	Emojis Added
+
+Basic Calculator 3.2.1 - 
+	Decimal Input Values
+	Minor Changes in FontColor, Family, Size and Styles 
+	Adjusted for both 5' and 5.5' Display
+	Proper Messages
+
+Basic Calculator 3.2.2 -
+	History Added
+	Animations
