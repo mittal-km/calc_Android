@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.km.basiccalculator.HistoryActivity">
+
+    <TextView
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="#000000"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:background="#000000"
+        android:layout_alignParentTop="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="9dp"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:layout_below="@+id/textView10"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@+id/enter"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="9dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="#000000"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/close"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Small"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView10"
+        android:layout_marginEnd="11dp"
+        android:layout_toStartOf="@+id/textView12"
+        android:text="❌"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/close"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        android:text="History Log Feature Coming Soon!! 📖 "
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/back"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless.Small"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignBaseline="@+id/close"
+        android:layout_alignBottom="@+id/close"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:onClick="onClickBack"
+        android:text="🔙"
+        android:textSize="35dp" />
+
+</RelativeLayout>
